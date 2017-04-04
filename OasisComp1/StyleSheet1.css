@@ -1,0 +1,158 @@
+﻿body {
+    margin:50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:white;
+    
+}
+
+div#navbutt{
+    z-index: 3;
+    
+
+}
+div#navbutt ul{
+    list-style-type:none;
+    border: solid;
+    border-width: 4px;
+    border-color: slategray;
+    text-align:center;
+}
+
+div#navbutt ul li{
+    display:inline-block;
+    padding-left:3%;
+    padding-right:3%;
+    
+}
+div#navbutt ul li:hover{
+    background-color:darkslategray;
+}
+div#navbutt ul li a{
+    
+    padding-left:30px;
+    padding-right:30px;
+    
+    
+}
+
+div#navbutt li a{
+    text-decoration:none;
+    
+}
+div#navbutt ul li a:hover{
+    color:red;
+
+}
+
+h2{
+    text-align: center;
+}
+div#slideshow{
+    margin:auto;
+    width:80%;
+    border: 3px solid red;
+    padding: 10px;
+    max-height:100px;
+    max-width: inherit;
+}
+
+img.slideshow{
+    display:inline-block;
+    max-height: inherit;
+    max-width: inherit;    
+    margin:auto;
+    padding: 10px;
+
+}
+
+.pview{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+div.fpi{
+    padding: 0%;
+    flex-grow: 1;
+    flex-basis: 19%;
+    margin: 4px;
+    border-radius:25px;
+}
+
+.ptexthover{
+    position:relative;
+    bottom:30px;
+    left:0px;
+    visibility:hidden;
+    border:solid;
+    border-width:1px;
+    border-color:darkslategrey;
+    color:black;
+    background-color:goldenrod;
+    width:30%;
+}
+
+div.pimg img{
+    max-width:100%;
+    background-color:white;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+
+}
+
+div.pinfo{
+    margin-top: auto;
+    text-align:center;
+
+    border-top:solid;
+    border-top-width:1px;
+    border-top-color: silver;
+}
+
+div.pinfo:hover{
+    background-color:silver;
+    border:solid;
+    border-color: silver;
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius:25px;
+   
+}
+
+
+
+.pimg:hover .ptexthover{
+       
+    visibility:visible;
+   
+    
+}
+
+div.fpi{
+    background-color: dimgrey;
+    border:solid;
+    border-width:2px;
+    border-color:orange;
+}
+
+div#cform{
+    display:block;
+    margin:auto;
+    width: 200px;
+    padding: 10px;
+}
+
+div#cform ul{
+    list-style-type:none;
+    display:inline-block;
+
+
+}
+
+#messagetb{
+    resize:none;
+}
+
+div#map{
+    height: 400px;
+    width:400px;
+
+}
