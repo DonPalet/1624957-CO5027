@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="img\logo.jpg" />
+    <Content Include="Login.aspx" />
     <Content Include="packages.config" />
     <Content Include="index.Master" />
     <None Include="Web.Debug.config">
@@ -108,6 +109,13 @@
     </Compile>
     <Compile Include="index.Master.designer.cs">
       <DependentUpon>index.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Product.aspx.cs">
       <DependentUpon>Product.aspx</DependentUpon>
