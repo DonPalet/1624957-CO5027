@@ -6,10 +6,10 @@
     <h2 id="title">Available Products</h2>
     <div id="slideshow">
         
-         <img class="slideshow" src="img/ss1.jpg" />
-         <img class="slideshow" src="img/ss2.jpg" />
-         <img class="slideshow" src="img/ss3.jpg" />
-         <img class="slideshow" src="img/ss4.jpg" />
+         <img class="slideshow" src="img/ss1.jpg" alt="Razer Black Widow Chroma"/>
+         <img class="slideshow" src="img/ss2.jpg" alt="Razer Naga 2014 Edition"/>
+         <img class="slideshow" src="img/ss3.jpg" alt="Razer Seiren"/>
+         <img class="slideshow" src="img/ss4.jpg" alt="Razer Tartarus"/>
         <%--Slideshow script --%>
         <script>
             var slideIndex = 0;
@@ -39,7 +39,7 @@
 <section class="pview">
     <div class="fpi"> 
         <div class="pimg">
-            <img src="img/ss2.jpg" />
+            <img src="img/ss2.jpg" alt="Razer Naga 2012 Edition"/>
             <p class="ptexthover">20% off!</p> <%-- for mouseover function; shows text --%>
         </div>
         <div class="pinfo">
@@ -50,7 +50,7 @@
 
     <div class="fpi"> 
         <div class="pimg">
-            <img src="img/ss2.jpg" />
+            <img src="img/ss2.jpg" alt="Razer Naga 2012 Edition"/>
             <p class="ptexthover">20% off!</p>
         </div>
         <div class="pinfo">
@@ -61,7 +61,7 @@
         
     <div class="fpi"> 
         <div class="pimg">
-            <img src="img/ss2.jpg" />
+            <img src="img/ss2.jpg" alt="Razer Naga 2012 Edition"/>
             <p class="ptexthover">20% off!</p>
         </div>
         <div class="pinfo">
@@ -71,7 +71,7 @@
     </div>
     <div class="fpi"> 
         <div class="pimg">
-            <img src="img/ss2.jpg" />
+            <img src="img/ss2.jpg" alt="Razer Naga 2012 Edition"/>
             <p class="ptexthover">20% off!</p>
         </div>
         <div class="pinfo">
@@ -81,7 +81,7 @@
     </div>
     <div class="fpi"> 
         <div class="pimg">
-            <img src="img/ss2.jpg" />
+            <img src="img/ss2.jpg" alt="Razer Naga 2012 Edition"/>
             <p class="ptexthover">20% off!</p>
         </div>
         <div class="pinfo">
@@ -92,7 +92,7 @@
     
     <div class="fpi"> 
         <div class="pimg">
-            <img src="img/ss2.jpg" />
+            <img src="img/ss2.jpg" alt="Razer Naga 2012 Edition"/>
             <p class="ptexthover">20% off!</p>
         </div>
         <div class="pinfo">
@@ -103,7 +103,7 @@
         
     <div class="fpi"> 
         <div class="pimg">
-            <img src="img/ss2.jpg" />
+            <img src="img/ss2.jpg" alt="Razer Naga 2012 Edition"/>
             <p class="ptexthover">20% off!</p>
         </div>
         <div class="pinfo">
@@ -113,7 +113,7 @@
     </div>
     <div class="fpi"> 
         <div class="pimg">
-            <img src="img/ss2.jpg" />
+            <img src="img/ss2.jpg" alt="Razer Naga 2012 Edition"/>
             <p class="ptexthover">20% off!</p>
         </div>
         <div class="pinfo">
@@ -123,7 +123,7 @@
     </div>
     <div class="fpi"> 
         <div class="pimg">
-            <img src="img/ss2.jpg" />
+            <img src="img/ss2.jpg" alt="Razer Naga 2012 Edition"/>
             <p class="ptexthover">20% off!</p>
         </div>
         <div class="pinfo">
@@ -133,7 +133,7 @@
     </div>
     <div class="fpi"> 
         <div class="pimg">
-            <img src="img/ss2.jpg" />
+            <img src="img/ss2.jpg" alt="Razer Naga 2012 Edition"/>
             <p class="ptexthover">20% off!</p>
         </div>
         <div class="pinfo">
