@@ -10,6 +10,12 @@ div#navbutt{
     
 
 }
+
+div#banner{
+    width:100%;
+    float:left;
+
+}
 div#navbutt ul{
     list-style-type:none;
     border: solid;
@@ -20,8 +26,8 @@ div#navbutt ul{
 
 div#navbutt ul li{
     display:inline-block;
-    padding-left:3%;
-    padding-right:3%;
+    padding-left:7%;
+    padding-right:7%;
     
 }
 div#navbutt ul li:hover{

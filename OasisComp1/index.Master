@@ -9,11 +9,16 @@
     
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #banner {
+            width: 248px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div class="logo">
-            <img id="banner" src="" />
+            <img id="banner" src="img/logo.jpg" />
 
         </div>
         <div class="banner">
@@ -24,8 +29,7 @@
             <ul>
                 <li> <a href="Default.aspx">Home</a></li>
                 <li> <a href="Product">Product</a></li>
-                <li> <a href="Contact.aspx">Contact</a></li>
-                <li> <a href="Admin/Default.aspx">Admin</a></li>
+                <li> <a href="Contact.aspx">Contact</a></li>                
                 <li> <a href="About.aspx">About</a></li>
 
             </ul>
