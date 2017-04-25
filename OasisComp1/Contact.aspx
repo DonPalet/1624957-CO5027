@@ -8,14 +8,23 @@
     <div id="cform">
         <ul>
       <li><asp:Label ID="name" runat="server" Text="Name:"></asp:Label> </li>
-      <li><asp:TextBox ID="nametb" runat="server"></asp:TextBox></li> 
+      <li><asp:TextBox ID="nametb" runat="server"></asp:TextBox> <br />
+          <asp:RequiredFieldValidator ID="NameReq" runat="server" ErrorMessage="Please enter name." ControlToValidate="nametb"></asp:RequiredFieldValidator>
+            </li> 
       <li><asp:Label ID="subject" runat="server" Text="Subject:"></asp:Label> </li>
-      <li><asp:TextBox ID="subjecttb" runat="server"></asp:TextBox> </li>
+      <li><asp:TextBox ID="subjecttb" runat="server"></asp:TextBox> <br />
+           <asp:RequiredFieldValidator ID="SubReq" runat="server" ErrorMessage="Please enter subject." ControlToValidate="subjecttb"></asp:RequiredFieldValidator>
+      </li>
       <li><asp:Label ID="email" runat="server" Text="Email"></asp:Label></li>
-      <li><asp:TextBox ID="emailtb" runat="server"></asp:TextBox> </li>
+      <li><asp:TextBox ID="emailtb" runat="server"></asp:TextBox> <br />
+          <asp:RequiredFieldValidator ID="EmailReq" runat="server" ValidationExpression="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ErrorMessage="Please enter proper email." ControlToValidate="emailtb"></asp:RequiredFieldValidator>
+      </li>
       <li><asp:Label ID="message" runat="server" Text="Message"></asp:Label></li>
-      <li><asp:TextBox ID="messagetb" runat="server" TextMode="multiline"></asp:TextBox> </li>
-      <li> <asp:Label ID="errormsg" runat="server" Text="Label"></asp:Label></li>
+      <li><asp:TextBox ID="messagetb" runat="server" TextMode="multiline" Height="54px" Width="275px"></asp:TextBox> <br />
+           <asp:RequiredFieldValidator ID="MessageReq" runat="server" ErrorMessage="Please enter your message." ControlToValidate="messagetb"></asp:RequiredFieldValidator>
+
+      </li>
+     
            
 
     <li><asp:Button ID="sendbtn" runat="server" Text="Send" OnClick="sendbtn_Click" /> </li>

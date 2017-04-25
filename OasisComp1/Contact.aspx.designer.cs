@@ -31,6 +31,15 @@ namespace OasisComp1 {
         protected global::System.Web.UI.WebControls.TextBox nametb;
         
         /// <summary>
+        /// NameReq control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator NameReq;
+        
+        /// <summary>
         /// subject control.
         /// </summary>
         /// <remarks>
@@ -47,6 +56,15 @@ namespace OasisComp1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox subjecttb;
+        
+        /// <summary>
+        /// SubReq control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator SubReq;
         
         /// <summary>
         /// email control.
@@ -67,6 +85,15 @@ namespace OasisComp1 {
         protected global::System.Web.UI.WebControls.TextBox emailtb;
         
         /// <summary>
+        /// EmailReq control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator EmailReq;
+        
+        /// <summary>
         /// message control.
         /// </summary>
         /// <remarks>
@@ -85,13 +112,13 @@ namespace OasisComp1 {
         protected global::System.Web.UI.WebControls.TextBox messagetb;
         
         /// <summary>
-        /// errormsg control.
+        /// MessageReq control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label errormsg;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator MessageReq;
         
         /// <summary>
         /// sendbtn control.

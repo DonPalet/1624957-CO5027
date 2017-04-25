@@ -31,7 +31,7 @@ namespace OasisComp1
             MailMessage msg = new MailMessage();
             msg.To.Add("1624957adi@gmail.com");
             msg.From = new MailAddress("1624957adi@gmail.com");
-            msg.Subject = String.Format("Name: " + nametb.Text + "Subject: " + subjecttb.Text);
+            msg.Subject = String.Format("Name: " + nametb.Text + "Email: " + emailtb.Text + "Subject: " + subjecttb.Text);
             msg.Body = messagetb.Text;
             msg.IsBodyHtml = true;
             smtpclient.Send(msg);
