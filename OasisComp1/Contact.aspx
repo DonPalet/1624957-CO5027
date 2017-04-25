@@ -15,6 +15,8 @@
       <li><asp:TextBox ID="emailtb" runat="server"></asp:TextBox> </li>
       <li><asp:Label ID="message" runat="server" Text="Message"></asp:Label></li>
       <li><asp:TextBox ID="messagetb" runat="server" TextMode="multiline"></asp:TextBox> </li>
+      <li> <asp:Label ID="errormsg" runat="server" Text="Label"></asp:Label></li>
+           
 
     <li><asp:Button ID="sendbtn" runat="server" Text="Send" OnClick="sendbtn_Click" /> </li>
        </ul>

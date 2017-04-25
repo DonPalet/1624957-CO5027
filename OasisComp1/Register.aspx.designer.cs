@@ -10,79 +10,70 @@
 namespace OasisComp1 {
     
     
-    public partial class WebForm1 {
+    public partial class Register {
         
         /// <summary>
-        /// name control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label name;
+        protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// nametb control.
+        /// utxtbox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox nametb;
+        protected global::System.Web.UI.WebControls.TextBox utxtbox;
         
         /// <summary>
-        /// subject control.
+        /// Label3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label subject;
+        protected global::System.Web.UI.WebControls.Label Label3;
         
         /// <summary>
-        /// subjecttb control.
+        /// etxtbox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox subjecttb;
+        protected global::System.Web.UI.WebControls.TextBox etxtbox;
         
         /// <summary>
-        /// email control.
+        /// Label2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label email;
+        protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
-        /// emailtb control.
+        /// ptxtbox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox emailtb;
+        protected global::System.Web.UI.WebControls.TextBox ptxtbox;
         
         /// <summary>
-        /// message control.
+        /// regbutt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label message;
-        
-        /// <summary>
-        /// messagetb control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox messagetb;
+        protected global::System.Web.UI.WebControls.Button regbutt;
         
         /// <summary>
         /// errormsg control.
@@ -92,14 +83,5 @@ namespace OasisComp1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label errormsg;
-        
-        /// <summary>
-        /// sendbtn control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button sendbtn;
     }
 }

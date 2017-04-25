@@ -20,15 +20,24 @@ namespace OasisComp1
             SmtpClient smtpclient = new SmtpClient();
             smtpclient.EnableSsl = true;
             smtpclient.UseDefaultCredentials = false;
-            System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("adim1339v2@gmail.com", "561339a9");
+            System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("1624957adi@gmail.com", "12345678aB");
+            smtpclient.DeliveryMethod = SmtpDeliveryMethod.Network;
             smtpclient.Host = "smtp.gmail.com";
             smtpclient.Port = 587;
+            smtpclient.Credentials = credentials;
 
 
-            MailMessage msg = new MailMessage("adim1339v2@gmail.com", emailtb.Text);
-            msg.Subject = "Name: " + nametb.Text + "Subject: " + subjecttb.Text;
+            //MailMessage msg = new MailMessage("1624957adi@gmail.com", emailtb.Text);
+            MailMessage msg = new MailMessage();
+            msg.To.Add("1624957adi@gmail.com");
+            msg.From = new MailAddress("1624957adi@gmail.com");
+            msg.Subject = String.Format("Name: " + nametb.Text + "Subject: " + subjecttb.Text);
             msg.Body = messagetb.Text;
+            msg.IsBodyHtml = true;
             smtpclient.Send(msg);
+
+           
+            
         }
     }
 }
