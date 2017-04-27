@@ -162,3 +162,10 @@ div#map{
     width:400px;
 
 }
+
+div#footer {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+}
