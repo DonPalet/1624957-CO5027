@@ -28,6 +28,8 @@
            
 
     <li><asp:Button ID="sendbtn" runat="server" Text="Send" OnClick="sendbtn_Click" /> </li>
+           <li> <asp:Label ID="succmsg" runat="server" Text=""></asp:Label></li>
+
        </ul>
     </div>
     <%-- map location taken from google.com--%>

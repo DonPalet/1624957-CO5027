@@ -34,9 +34,17 @@ namespace OasisComp1
             msg.Subject = String.Format("Name: " + nametb.Text + "Email: " + emailtb.Text + "Subject: " + subjecttb.Text);
             msg.Body = messagetb.Text;
             msg.IsBodyHtml = true;
-            smtpclient.Send(msg);
-
            
+
+            try
+            {
+                smtpclient.Send(msg);
+                succmsg.Text = "Message Sent";
+            }
+            catch
+            {
+                succmsg.Text = "Error. Message not sent";
+            }
             
         }
     }
