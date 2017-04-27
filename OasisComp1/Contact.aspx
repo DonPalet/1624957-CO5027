@@ -51,7 +51,7 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQWieyvzoWrOUcGZ-S3P3Rja9esQmdDYQ&callback=initMap">
     </script>
        
-    <img id="mappic" src="img/map.jpg" />
+    <img id="mappic" src="img/map.jpg" alt="Static map of our shop"/>
 
 
 </div>
