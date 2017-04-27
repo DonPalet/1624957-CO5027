@@ -45,12 +45,12 @@
        
     </div>
     </form>
-    <div id="footer">
+    
      <footer>&copy; Oasis Computers
             <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a>
             <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
             <a href="Admin.aspx">Admin Page</a>
         </footer>
-    </div>
+    
 </body>
 </html>

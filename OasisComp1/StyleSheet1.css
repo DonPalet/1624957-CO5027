@@ -160,12 +160,6 @@ div#cform ul{
 div#map{
     height: 400px;
     width:400px;
-
+    padding: 10px;
 }
 
-div#footer {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-
-}
