@@ -10,33 +10,42 @@
 namespace OasisComp1 {
     
     
-    public partial class WebForm3 {
+    public partial class ViewProducts {
         
         /// <summary>
-        /// lblQuantity control.
+        /// Name control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblQuantity;
+        protected global::System.Web.UI.WebControls.Label Name;
         
         /// <summary>
-        /// ddlamount control.
+        /// Desc control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlamount;
+        protected global::System.Web.UI.WebControls.Label Desc;
         
         /// <summary>
-        /// btnPurchase control.
+        /// Price control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnPurchase;
+        protected global::System.Web.UI.WebControls.Label Price;
+        
+        /// <summary>
+        /// Quantity control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Quantity;
     }
 }

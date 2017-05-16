@@ -120,7 +120,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="completepurchase.aspx" />
     <Content Include="img\logo.jpg" />
     <Content Include="Login.aspx" />
     <Content Include="packages.config" />
@@ -135,7 +134,6 @@
       <DependentUpon>Product.edmx</DependentUpon>
       <LastGenOutput>Product.cs</LastGenOutput>
     </Content>
-    <Content Include="purchase.aspx" />
     <EntityDeploy Include="Product.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Product.Designer.cs</LastGenOutput>
@@ -196,13 +194,6 @@
     </Compile>
     <Compile Include="AspNetUserLogin.cs">
       <DependentUpon>Product.tt</DependentUpon>
-    </Compile>
-    <Compile Include="completepurchase.aspx.cs">
-      <DependentUpon>completepurchase.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="completepurchase.aspx.designer.cs">
-      <DependentUpon>completepurchase.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -272,13 +263,6 @@
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
     <Compile Include="Startup1.cs" />
-    <Compile Include="purchase.aspx.cs">
-      <DependentUpon>purchase.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="purchase.aspx.designer.cs">
-      <DependentUpon>purchase.aspx</DependentUpon>
-    </Compile>
     <Compile Include="UploadImage.aspx.cs">
       <DependentUpon>UploadImage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

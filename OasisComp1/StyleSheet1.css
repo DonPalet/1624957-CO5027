@@ -167,3 +167,10 @@ div#map{
     max-height:128px;
     max-width:72px;
 }
+
+#viewprod li{
+    margin-top:5px;
+    margin-bottom:5px;
+    list-style:none;
+    
+}
