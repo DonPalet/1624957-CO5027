@@ -10,15 +10,24 @@
 namespace OasisComp1 {
     
     
-    public partial class Product {
+    public partial class completepurchase {
         
         /// <summary>
-        /// ProdRep control.
+        /// btnCPurchase control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater ProdRep;
+        protected global::System.Web.UI.WebControls.Button btnCPurchase;
+        
+        /// <summary>
+        /// litInformation control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal litInformation;
     }
 }

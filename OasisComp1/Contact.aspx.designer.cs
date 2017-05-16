@@ -85,24 +85,6 @@ namespace OasisComp1 {
         protected global::System.Web.UI.WebControls.TextBox emailtb;
         
         /// <summary>
-        /// EmailEmptyCheck control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator EmailEmptyCheck;
-        
-        /// <summary>
-        /// EmailCheck control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator EmailCheck;
-        
-        /// <summary>
         /// message control.
         /// </summary>
         /// <remarks>

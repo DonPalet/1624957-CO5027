@@ -17,8 +17,7 @@
       </li>
       <li><asp:Label ID="email" runat="server" Text="Email"></asp:Label></li>
       <li><asp:TextBox ID="emailtb" runat="server"></asp:TextBox> <br />
-          <asp:RequiredFieldValidator ID="EmailEmptyCheck" runat="server" ErrorMessage="Please enter your email." ControlToValidate="emailtb"></asp:RequiredFieldValidator>
-          <asp:RegularExpressionValidator ID="EmailCheck" runat="server" ErrorMessage="PLease enter proper email." ValidationExpression="^\w+([-+.]\w+)*@\w([-.]\w+)*\.\w+([-.]\w+)*\s*$" ControlToValidate="emailtb"> </asp:RegularExpressionValidator>
+          
         </li>
       <li><asp:Label ID="message" runat="server" Text="Message"></asp:Label></li>
       <li><asp:TextBox ID="messagetb" runat="server" TextMode="multiline" Height="54px" Width="275px"></asp:TextBox> <br />

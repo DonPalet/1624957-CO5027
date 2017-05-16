@@ -28,7 +28,7 @@
         <nav>
             <ul>
                 <li> <a href="Default.aspx">Home</a></li>
-                <li> <a href="Product">Product</a></li>
+                <li> <a href="Product.aspx">Product</a></li>
                 <li> <a href="Contact.aspx">Contact</a></li>                
                 <li> <a href="About.aspx">About</a></li>
                 <li> <a href="Login.aspx">Login</a></li>
