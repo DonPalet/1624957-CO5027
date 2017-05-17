@@ -2,13 +2,14 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:Label ID="Label1" runat="server" Text="Username"></asp:Label>
-    <asp:TextBox ID="lunametxt" runat="server"></asp:TextBox> <br />
+    <ul class="utextbox">
+    <li><asp:Label ID="Label1" runat="server" Text="Username"></asp:Label></li>
+    <li><asp:TextBox ID="lunametxt" runat="server"></asp:TextBox> </li>
 
-    <asp:Label ID="Label2" runat="server" Text="Password"></asp:Label>
-    <asp:TextBox ID="lpnametxt" runat="server"></asp:TextBox> <br />
+   <li> <asp:Label ID="Label2" runat="server" Text="Password"></asp:Label></li>
+   <li> <asp:TextBox ID="lpnametxt" runat="server" TextMode="Password"></asp:TextBox> </li>
 
-    <asp:Button ID="loginbutt" runat="server" Text="Login" OnClick="loginbutt_Click" />
-    <asp:Literal ID="errormsglogin" runat="server"></asp:Literal>
-
+    <li><asp:Button ID="loginbutt" runat="server" Text="Login" OnClick="loginbutt_Click" /> </li>
+    <li><asp:Literal ID="errormsglogin" runat="server"></asp:Literal> </li>
+    </ul>
 </asp:Content>

@@ -174,3 +174,9 @@ div#map{
     list-style:none;
     
 }
+
+.utextbox li{
+     margin-top:5px;
+    margin-bottom:5px;
+    list-style:none;
+}
