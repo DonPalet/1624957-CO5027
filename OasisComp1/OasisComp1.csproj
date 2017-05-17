@@ -165,7 +165,6 @@
     <Content Include="img\ss3.jpg" />
     <Content Include="img\ss4.jpg" />
     <Content Include="Product.aspx" />
-    <Content Include="Register.aspx" />
     <Content Include="StyleSheet1.css" />
     <Content Include="UploadImage.aspx" />
     <Content Include="ViewProducts.aspx" />
@@ -254,13 +253,6 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Register.aspx.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Register.aspx.designer.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
     <Compile Include="Startup1.cs" />
     <Compile Include="UploadImage.aspx.cs">
